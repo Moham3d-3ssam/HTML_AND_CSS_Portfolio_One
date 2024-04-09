@@ -56,6 +56,11 @@ header .navigation a{
 header .navigation a:hover{
     color: #601cfc;
 }
+@media (max-width: 479px){
+    header .navigation a{
+        font-size: 0.9em;
+    }
+}
 /* End Header */
 /*----------------------------------------------------*/
 /* Start Main */
